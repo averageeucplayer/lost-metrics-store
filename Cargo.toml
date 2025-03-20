@@ -15,10 +15,10 @@ log = "0.4.26"
 anyhow = "1.0.97"
 hashbrown = { version = "0.15.0", features = ["serde"] }
 chrono = "0.4.31"
-# lost-metrics-core = { git = "https://github.com/averageeucplayer/lost-metrics-core", branch="main" }
-# lost-metrics-misc = { git = "https://github.com/averageeucplayer/lost-metrics-misc", branch="main" }
-lost-metrics-core = { path= "../lost-metrics-core" }
-lost-metrics-misc = { path= "../lost-metrics-misc" }
+lost-metrics-core = { git = "https://github.com/averageeucplayer/lost-metrics-core", branch="main" }
+lost-metrics-misc = { git = "https://github.com/averageeucplayer/lost-metrics-misc", branch="main" }
+# lost-metrics-core = { path= "../lost-metrics-core" }
+# lost-metrics-misc = { path= "../lost-metrics-misc" }
 
 [dev-dependencies]
 mockall = "0.13.1"

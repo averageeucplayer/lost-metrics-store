@@ -426,6 +426,7 @@ dependencies = [
 [[package]]
 name = "lost-metrics-core"
 version = "0.1.0"
+source = "git+https://github.com/averageeucplayer/lost-metrics-core?branch=main#68241d2e46e46e7a39494319f122fadea19aff79"
 dependencies = [
  "bitflags",
  "chrono",
@@ -441,6 +442,7 @@ dependencies = [
 [[package]]
 name = "lost-metrics-data"
 version = "0.1.0"
+source = "git+https://github.com/averageeucplayer/lost-metrics-data?branch=main#e3af0b8cdf40a11b3453965c6e9d072c05141293"
 dependencies = [
  "hashbrown 0.15.2",
  "lost-metrics-core",
@@ -452,6 +454,7 @@ dependencies = [
 [[package]]
 name = "lost-metrics-misc"
 version = "0.1.0"
+source = "git+https://github.com/averageeucplayer/lost-metrics-misc?branch=main#e81b46a758919ea3ed941d8da402bd366809b97e"
 dependencies = [
  "anyhow",
  "flate2",
