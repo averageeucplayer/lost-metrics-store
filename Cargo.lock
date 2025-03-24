@@ -426,7 +426,7 @@ dependencies = [
 [[package]]
 name = "lost-metrics-core"
 version = "0.1.0"
-source = "git+https://github.com/averageeucplayer/lost-metrics-core?branch=main#68241d2e46e46e7a39494319f122fadea19aff79"
+source = "git+https://github.com/averageeucplayer/lost-metrics-core?branch=main#fa90f1bee373e902981ccdf13900ebaa3a9b5b25"
 dependencies = [
  "bitflags",
  "chrono",
@@ -442,7 +442,7 @@ dependencies = [
 [[package]]
 name = "lost-metrics-data"
 version = "0.1.0"
-source = "git+https://github.com/averageeucplayer/lost-metrics-data?branch=main#e3af0b8cdf40a11b3453965c6e9d072c05141293"
+source = "git+https://github.com/averageeucplayer/lost-metrics-data?branch=main#38c5d02b6702cbb6761537294c5042cce36d7a14"
 dependencies = [
  "hashbrown 0.15.2",
  "lost-metrics-core",
@@ -454,7 +454,7 @@ dependencies = [
 [[package]]
 name = "lost-metrics-misc"
 version = "0.1.0"
-source = "git+https://github.com/averageeucplayer/lost-metrics-misc?branch=main#e81b46a758919ea3ed941d8da402bd366809b97e"
+source = "git+https://github.com/averageeucplayer/lost-metrics-misc?branch=main#73661ab237284feb37db3303e2ca339709ae97e8"
 dependencies = [
  "anyhow",
  "flate2",
@@ -464,6 +464,8 @@ dependencies = [
  "moka",
  "serde",
  "serde_json",
+ "strum",
+ "strum_macros",
 ]
 
 [[package]]

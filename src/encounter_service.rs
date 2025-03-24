@@ -1,9 +1,9 @@
 use std::cmp::{max, Reverse};
 
-use crate::{models::*, repository::Repository, utils::{create_stagger_stats, to_entities_db}};
+use crate::{models::*, repository::Repository, utils::to_entities_db};
 use anyhow::*;
 use lost_metrics_core::models::EncounterMisc;
-use lost_metrics_misc::{compress_json, generate_intervals};
+use lost_metrics_misc::{compress_json, create_stagger_stats, generate_intervals};
 use serde_json::json;
 
 pub const DB_VERSION: i32 = 5;
