@@ -31,7 +31,7 @@ pub fn to_entities_db<'a>(
                 entity,
                 player_info,
                 &damage_log, 
-                &encounter_damage_stats,
+                encounter_damage_stats,
                 fight_start,
                 last_combat_packet,
                 &intervals);
